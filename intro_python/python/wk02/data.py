@@ -9,7 +9,7 @@ q_id = '16'
 # I start without an answer
 ans = 'N'
 
-# Get a Y/N function
+# A simple Y/N validation function
 def get_answer (q_text):
     good_ans = False
     while good_ans == False:
@@ -40,18 +40,4 @@ while ans == 'N':
     if data[q_id]['ans'] == 'Y':
         print ('Answer is: ' + data[q_id]['Q'])
         ans ='Y'
-        
-
-    
-
-
-
-
-
-# for key in data:
-#     print(data[key])
-#     record = data[key]
-#     if record['ans'] == 'Y':
-#       print(key)
-#       print(record['Q']) 
 
