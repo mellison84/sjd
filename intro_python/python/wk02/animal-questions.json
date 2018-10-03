@@ -106,7 +106,7 @@
 	},
 	"16": {
 		"id": "16",
-		"Q": "Is it an aquatic animal",
+		"Q": "Is it an aquatic animal",
 		"ans": "N",
 		"Y": "8",
 		"N": "24"
