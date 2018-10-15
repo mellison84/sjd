@@ -6,7 +6,7 @@ data = {
     "1":{"Q": "Is it an aquatic animal", "Y":"2", "N":"3"},
     "2":{"Q": "Is it a fish", "Y":"4", "N":"5"},
     "3":{"Q": "Does it eat meat", "Y":"6", "N":"7"},
-    "4":{"A": "Goldfish"},
+    "4":{"A": "All work and no play makes Matthew a dull boy"},
     "5":{"A": "Seal"},
     "6":{"A": "Dog"},
     "7":{"A": "Cow"},
@@ -39,18 +39,16 @@ while ans == 'N':
     if "Q" in data[q_id]:
         q_txt = data[q_id]['Q']
         if get_answer(q_txt):
-            print('YES')
             q_id = data[q_id]["Y"]
             # Get next record ID
         else:
-            print('No')
             q_id = data[q_id]["N"]
             # Get next record ID
     else:
         print (data[q_id]['A'])
-        ans = True        
+        
 
     # Is this an answer? 
     # If so print out and stop
     # If so print out and stop
-
+   
